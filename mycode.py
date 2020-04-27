@@ -15,7 +15,6 @@ else:
    while count < given_num:
        print(n1)
        nth = n1 + n2
-       # interchanging the variable
        n1 = n2
        n2 = nth
        count += 1
