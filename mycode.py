@@ -6,12 +6,12 @@ n1, n2 = 0, 1  # first two terms
 count = 0
 sequence = []
 if given_num <= 0:                              # check if the number of terms is valid
-   print("Please enter a valid term")
+   print("Please enter a valid term (term must be greater than 0)")
 elif given_num == 1:
    print("Fibonacci sequence up to",given_num,":")
    print(n1)
 else:
-   print("For a sequence of" + "given_num" + "," + " you have:")
+   print("For a sequence of",given_num, ",you have:")
    while count < given_num:
        sequence.append(n1)
        nth = n1 + n2
